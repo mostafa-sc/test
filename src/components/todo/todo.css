@@ -1,0 +1,21 @@
+.todoList__name{
+    font-size: 20px;
+    margin-bottom: 0;
+display: flex;
+    word-break: break-word;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.todoList__name span{
+    font-size: 0.8rem;
+}
+.todoList__name.important{
+    color: red;
+}
+.todoList__name.done{
+    color: green;
+    text-decoration: line-through;
+    text-decoration-color: black;   
+}
+
